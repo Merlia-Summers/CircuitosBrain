@@ -1,4 +1,5 @@
 Contexto e Objetivos
+
 Este caderno temático dedica-se integralmente ao estudo da disciplina de Circuitos Digitais
 . O conteúdo aqui reunido abrange desde os fundamentos da Lógica Booleana e sistemas de numeração até a complexidade do projeto de sistemas digitais modernos utilizando linguagens de descrição de hardware
 .
