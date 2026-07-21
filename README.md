@@ -1,25 +1,96 @@
-1. Contexto e Objetivos
-  
-   
-Este repositório é um caderno temático dedicado ao estudo de Circuitos Digitais. O objetivo principal é utilizar o NotebookLM como um tutor inteligente personalizado, treinado especificamente nos materiais didáticos da UFRPE. Busco não apenas resolver exercícios, mas compreender a lógica por trás da transição entre circuitos combinacionais e sequenciais, culminando na modelagem em Verilog. A IA atua com a personalidade de um professor universitário doutor, garantindo rigor técnico e clareza pedagógica.
+Circuitos Digitais – Caderno de Estudos com NotebookLM
+📌 Contexto e Objetivos
 
-2 Curadoria de Fontes
-Para este estudo, foram selecionadas as seguintes fontes fundamentais:
-Circuitos Combinacionais.pdf: Slides de aula focados em tecnologia de construção de CIs e lógica de portas
+Este repositório é um caderno temático dedicado ao estudo de Circuitos Digitais, utilizando o NotebookLM como um tutor inteligente personalizado, treinado com os materiais didáticos da Universidade Federal Rural de Pernambuco (UFRPE).
 
-Circuitos Sequenciais.pdf: Material sobre máquinas de estados e circuitos de ativação de Flip-Flops
+O objetivo não é apenas resolver exercícios, mas compreender profundamente os conceitos envolvidos, desde os fundamentos dos circuitos combinacionais até os circuitos sequenciais, culminando na modelagem e implementação de projetos em Verilog.
 
-Exercícios sobre bases numéricas.pdf: Lista prática abrangendo representações em Ponto-Fixo e Complemento a Dois
+Neste projeto, o NotebookLM assume o papel de um professor universitário doutor, fornecendo explicações com rigor técnico, linguagem clara e foco no desenvolvimento do raciocínio lógico.
 
-verilog.pdf / Tutorial_Verilog.pdf: Manuais para implementação de hardware em níveis de abstração RTL e comportamental
+📚 Curadoria de Fontes
 
-3. Engenharia de Prompts e "Cicatrizes"
-Documentar o processo de interação com a IA revela a maturidade do pesquisador. Aqui estão as estratégias testadas:
-Prompt Estratégico: "Como simplificar circuitos digitais usando o Mapa de Karnaugh?"
-Resultado: Obtivemos um guia passo a passo que prioriza o agrupamento em potências de 2 para eliminar variáveis
+Os estudos foram baseados nos seguintes materiais:
 
-4. Variação Técnica: "Discuta Ponto-fixo e Módulo no contexto de padrões de representação."
-Raciocínio: Foi necessário cruzar dados dos exercícios de termômetros clínicos
- com as definições de erro máximo e precisão para obter uma resposta aplicada.
+Circuitos Combinacionais.pdf
+Tecnologia de construção de circuitos integrados;
+Portas lógicas;
+Álgebra Booleana;
+Simplificação utilizando Mapas de Karnaugh.
+Circuitos Sequenciais.pdf
+Flip-Flops;
+Registradores;
+Contadores;
+Máquinas de Estados Finitos (FSM).
+Exercícios sobre Bases Numéricas.pdf
+Conversões entre bases;
+Ponto-fixo;
+Complemento de Dois;
+Representações binárias.
+verilog.pdf
+Introdução à linguagem Verilog;
+Modelagem RTL;
+Descrição estrutural e comportamental.
+Tutorial_Verilog.pdf
+Sintaxe da linguagem;
+Simulações;
+Exemplos de implementação.
+🧠 Engenharia de Prompts
 
-5. Dificuldades (Cicatrizes): A maior dificuldade foi extrair a lógica correta de tabelas-verdade em imagens (como em prova9.jpeg). O "troubleshooting" envolveu pedir para a IA descrever cada linha da tabela antes de sugerir a simplificação booleana, garantindo que nenhum bit fosse ignorado
+Durante o estudo foram utilizados diferentes tipos de prompts para explorar o potencial do NotebookLM.
+
+Exemplo 1
+
+Prompt
+
+Como simplificar circuitos digitais utilizando o Mapa de Karnaugh?
+
+Resultado
+
+A IA apresentou um procedimento passo a passo para:
+
+construir o mapa;
+identificar agrupamentos em potências de dois;
+eliminar variáveis redundantes;
+obter a expressão booleana mínima.
+Exemplo 2
+
+Prompt
+
+Discuta Ponto-Fixo e Módulo no contexto de padrões de representação.
+
+Resultado
+
+Foi necessário relacionar:
+
+os conceitos apresentados nos slides;
+os exercícios envolvendo termômetros clínicos;
+precisão;
+resolução;
+erro máximo.
+
+Essa combinação permitiu obter uma resposta mais aplicada e menos puramente teórica.
+
+⚠️ Dificuldades Encontradas (Cicatrizes)
+
+A principal dificuldade durante o desenvolvimento foi interpretar corretamente tabelas-verdade presentes em imagens, como na prova9.jpeg.
+
+Inicialmente, algumas respostas apresentavam interpretações incorretas dos bits da tabela.
+
+Para solucionar esse problema, foi adotada uma estratégia de troubleshooting:
+
+solicitar que a IA descrevesse cada linha da tabela;
+confirmar cada entrada e saída;
+somente após a validação iniciar a simplificação booleana.
+
+Esse processo reduziu significativamente erros de interpretação e aumentou a confiabilidade das soluções propostas.
+
+🎯 Objetivo Final
+
+Ao término deste estudo, espera-se desenvolver competências para:
+
+analisar circuitos digitais;
+simplificar funções booleanas;
+projetar circuitos combinacionais e sequenciais;
+compreender máquinas de estados;
+implementar projetos em Verilog;
+interpretar e resolver exercícios com autonomia, compreendendo a lógica envolvida em cada etapa do desenvolvimento.
